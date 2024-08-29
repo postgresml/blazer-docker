@@ -1,3 +1,16 @@
+## 3.0.2 (2023-11-28)
+
+- Updated Blazer to 3.0.2
+
+## 3.0.1 (2023-10-08)
+
+- Updated Blazer to 3.0.1
+
+## 3.0.0 (2023-09-20)
+
+- Updated Blazer to 3.0.0
+- Added experimental support for `linux/arm64`
+
 ## 2.6.5 (2022-08-31)
 
 - Updated Blazer to 2.6.5
