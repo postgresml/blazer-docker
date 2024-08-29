@@ -41,6 +41,7 @@ module BlazerSolo
     config.secret_key_base = ENV["SECRET_KEY_BASE"] || SecureRandom.hex(30)
     config.active_record.legacy_connection_handling = false
 
+    config.action_controller.default_url_options = { host: ENV["BLAZER_HOST"] || 'blazer.postgresml.net' }
     config.public_file_server.enabled = ENV["RAILS_SERVE_STATIC_FILES"] != "disabled"
 
     if ENV["RAILS_LOG_TO_STDOUT"] != "disabled"
